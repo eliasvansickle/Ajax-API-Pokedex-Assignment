@@ -10,7 +10,10 @@ var data = function() {
 			$("img").click(function() {
 				id = $(this).attr("id");
 				$.get("http://pokeapi.co/api/v1/pokemon/"+id+"/", function(res) {
+					var name = "";
+					name += "<h1>"+res.name+"</h1>"
 					
+
 				}, "json");
 
 
