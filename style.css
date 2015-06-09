@@ -42,11 +42,27 @@ blockquote, q {
 	}
 
 /*====================MY CODE BELOW======================================*/
+#wrapper {
+	max-width: 100%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+
 #pokemon {
 	background-color: black;
-	margin: 0 auto;
-	max-width: 970px;
+	max-width: 69%;
+	min-height: 1500px;
+	display: inline-block;
+
+}
+#stats {
+	min-width: 29%;
 	min-height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	border: 5px solid red;
+
+
 
 }
 
