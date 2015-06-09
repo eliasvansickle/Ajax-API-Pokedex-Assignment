@@ -92,10 +92,12 @@ blockquote, q {
 			}
 		div.height {
 			min-height:100px;
+			margin-top: 10px;
 		}
-			div.height p {
+			p {
 				text-align: center;
 				font-size: 20px;
+				margin-top: 10px;
 			}
 		div.weight {
 			min-height:100px;
