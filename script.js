@@ -30,7 +30,7 @@ var data = function() {
 					var height = "";
 					height += "<h4>Height</h4>";
 					height += "<p>" + res.height + "</p>"
-					
+					$(".height").html(height);
 
 
 

@@ -84,6 +84,7 @@ blockquote, q {
 			h4 {
 				font-size: 30px;
 				font-weight: bolder;
+				text-align: center;
 			}
 			div.types ul li {
 				font-size: 20px;
@@ -92,6 +93,10 @@ blockquote, q {
 		div.height {
 			min-height:100px;
 		}
+			div.height p {
+				text-align: center;
+				font-size: 20px;
+			}
 		div.weight {
 			min-height:100px;
 		}
