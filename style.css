@@ -78,7 +78,17 @@ blockquote, q {
 
 		div.types {
 			min-height:100px;
+			text-align: center;
+			margin-top: 20px;
 		}
+			h4 {
+				font-size: 30px;
+				font-weight: bolder;
+			}
+			div.types ul li {
+				font-size: 20px;
+				margin-top: 10px;
+			}
 		div.height {
 			min-height:100px;
 		}

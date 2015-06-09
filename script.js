@@ -18,6 +18,21 @@ var data = function() {
 					img += '<img id="'+id+'" src="http://pokeapi.co/media/img/'+id+'.png">';
 					$(".pic").html(img);
 
+					var types = "";
+					types += "<h4>Types</h4>";
+					types += "<ul>";
+					for(var i = 0; i <res.types.length; i++) {
+						types += "<li>" + res.types[i].name + "</li>";
+					};
+					types += "</ul>"
+					$(".types").html(types);
+
+					var height = "";
+					height += "<h4>Height</h4>";
+					height += "<p>" + res.height + "</p>"
+					
+
+
 
 				}, "json");
 
